@@ -8,18 +8,31 @@ body {
     background-color: rgb(65, 65, 65);
 }
 
-button {
-    border: none;
+.buttonsWatch {
     text-decoration: none;
-    border-radius: 12px;
     color: white;
     font-size: 23px;
     padding: 5px;
+    border: black 2px;
+    border-radius: 12px;
+    border-style: solid;
 }
+
+.buttonActive {
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
+.buttonHover:hover {
+    cursor: pointer;
+}
+
 
 #iniciarContagem {
     background-color: green;
 }
+
+
 
 #pausarContagem {
     background-color: rgb(209, 209, 52);
@@ -35,14 +48,28 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
 
 .content-box {
     background-color: brown;
     width: 400px;
     height: 400px;
-    color: white;
     text-align: center;
     padding: 20px;
-    border-radius: 12px;
+    border-radius: 14px;
+    border-style: solid;
+    border-width: 6px;
+}
+
+h1 {
+    color: white;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    color: white;
 }
