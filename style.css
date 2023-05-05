@@ -8,7 +8,7 @@ body {
     background-color: rgb(65, 65, 65);
 }
 
-button {
+.buttonsWatch {
     text-decoration: none;
     color: white;
     font-size: 23px;
@@ -18,13 +18,21 @@ button {
     border-style: solid;
 }
 
-button:hover {
+.buttonActive {
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
+.buttonHover:hover {
     cursor: pointer;
 }
+
 
 #iniciarContagem {
     background-color: green;
 }
+
+
 
 #pausarContagem {
     background-color: rgb(209, 209, 52);
@@ -59,4 +67,9 @@ h1 {
     color: white;
     border-style: solid;
     margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    color: white;
 }
