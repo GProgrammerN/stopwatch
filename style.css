@@ -1,31 +1,38 @@
-*{
+* {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(65, 65, 65);
 }
 
-button{
+button {
     border: none;
     text-decoration: none;
     border-radius: 12px;
-    color:white;
+    color: white;
     font-size: 23px;
     padding: 5px;
 }
 
-#iniciarContagem{background-color: green;}
-#pausarContagem{background-color: rgb(209, 209, 52);}
-#resetarContagem{background-color: purple;}
+#iniciarContagem {
+    background-color: green;
+}
+
+#pausarContagem {
+    background-color: rgb(209, 209, 52);
+}
+
+#resetarContagem {
+    background-color: purple;
+}
 
 .container {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -34,8 +41,7 @@ button{
     background-color: brown;
     width: 400px;
     height: 400px;
-    display: inline-block;
-    color:white;
+    color: white;
     text-align: center;
     padding: 20px;
     border-radius: 12px;

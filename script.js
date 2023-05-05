@@ -1,21 +1,24 @@
 var i = 0
 var relogio;
-const contador = document.getElementById(cronometro)
+var estado
 
-
-function contadorFunction(){
-    relogio = setInterval(function() {
-        i++
-        cronometro.innerHTML = i
-    }, 1000)
+function contadorFunction() {
+    if (estado != true)
+        relogio = setInterval(function () {
+            i++
+            cronometro.innerHTML = i
+        }, 1000)
+    estado = true;
 }
 
-function contadorPausar(){
+function contadorPausar() {
     clearInterval(relogio)
+    estado = false
 }
 
-function contadorResetar(){
+function contadorResetar() {
     i = 0;
     clearInterval(relogio)
     cronometro.innerHTML = i
+    estado = false
 }
