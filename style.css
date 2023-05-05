@@ -8,14 +8,21 @@ body {
     background-color: rgb(65, 65, 65);
 }
 
+#botoes {
+    display: grid;
+    justify-content: space-around;
+}
+
 .buttonsWatch {
     text-decoration: none;
     color: white;
     font-size: 23px;
-    padding: 5px;
+    margin: 5px 0px 3px;
+    padding: 10px;
     border: black 2px;
     border-radius: 12px;
     border-style: solid;
+    width: 100px;
 }
 
 .buttonActive {
